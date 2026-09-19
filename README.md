@@ -13,8 +13,8 @@ list(db.scan(b"a", b"z"))
 db.close()
 ```
 
-[![lsm-kv demo — watch the video](docs/media/demo-poster.jpg)](docs/media/demo.mp4)
-<p><sub>▶ Click the image to watch (22s) — architecture, a real crash-kill test, and benchmarks.</sub></p>
+![lsm-kv demo](docs/media/demo.gif)
+<p><sub>Architecture, a real crash-kill test, and benchmarks — <a href="docs/media/demo.mp4">watch with sound (mp4)</a>.</sub></p>
 
 ## Why this exists
 

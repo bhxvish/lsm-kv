@@ -13,6 +13,8 @@ list(db.scan(b"a", b"z"))
 db.close()
 ```
 
+<video src="https://raw.githubusercontent.com/bhxvish/lsm-kv/main/docs/media/demo.mp4" controls muted playsinline poster="https://raw.githubusercontent.com/bhxvish/lsm-kv/main/docs/media/demo-poster.jpg" width="100%"></video>
+
 ## Why this exists
 
 This project follows a structured build guide through 8 milestones, each adding one real systems concept: durability (write-ahead log), memory/disk tiering (memtable + SSTable), fast reads (sparse index + Bloom filter), background compaction (a real OS process, not a thread), range queries (k-way merge), and finally benchmarks that prove the design decisions actually mattered rather than just asserting it.

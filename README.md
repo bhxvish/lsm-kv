@@ -13,7 +13,8 @@ list(db.scan(b"a", b"z"))
 db.close()
 ```
 
-<video src="https://raw.githubusercontent.com/bhxvish/lsm-kv/main/docs/media/demo.mp4" controls muted playsinline poster="https://raw.githubusercontent.com/bhxvish/lsm-kv/main/docs/media/demo-poster.jpg" width="100%"></video>
+[![lsm-kv demo — watch the video](docs/media/demo-poster.jpg)](docs/media/demo.mp4)
+<p><sub>▶ Click the image to watch (22s) — architecture, a real crash-kill test, and benchmarks.</sub></p>
 
 ## Why this exists
 
